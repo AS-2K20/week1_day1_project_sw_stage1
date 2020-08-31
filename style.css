@@ -1,4 +1,43 @@
 .footer{
-  margin-left : 80px;
+  margin-top: 100px;
+  margin-left : 210px;
   font-size : 18px;
+}
+
+.gridContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+}
+
+.gridContainer div{
+  justify-self: center;
+}
+
+.box1{
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 0px 1px 1px #888888;
+  width: 150px;
+  height: 250px;
+  text-align: center;
+}
+
+.number{
+  font-size: 3rem;
+}
+
+#column1{ 
+  margin-left:200px;
+}
+
+#column2{
+  margin-left: -70px;
+}
+
+#column4{
+  margin-right: -70px;
+}
+
+#column5{
+  margin-right:200px;
 }
